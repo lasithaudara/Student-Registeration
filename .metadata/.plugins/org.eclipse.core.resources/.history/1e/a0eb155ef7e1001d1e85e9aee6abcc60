@@ -37,5 +37,5 @@ public class Controller {
     @FXML
     private TextField txt_subject;
     
-    int val;
+
 }

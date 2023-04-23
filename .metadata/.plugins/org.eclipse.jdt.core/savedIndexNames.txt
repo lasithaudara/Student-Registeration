@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+C:\Users\123pe\student registration\.metadata\.plugins\org.eclipse.jdt.core
 3699636343.index
-2900291902.index
 1374925816.index
 1888556417.index
 2884630467.index
