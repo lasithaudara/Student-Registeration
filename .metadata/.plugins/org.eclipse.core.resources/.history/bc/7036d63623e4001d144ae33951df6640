@@ -1,0 +1,93 @@
+package models;
+
+import java.sql.Date;
+
+public class User {
+	
+	private int studentID;
+	private String studentName;
+	private Date birthDate;
+	private String subject;
+	private int phoneNumber;
+	
+	
+	
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+
+
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+
+
+
+	public Date getBirthDate() {
+		return birthDate;
+	}
+
+
+
+
+	public void setBirthDate(Date birthDate) {
+		this.birthDate = birthDate;
+	}
+
+
+
+
+	public String getSubject() {
+		return subject;
+	}
+
+
+
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+
+
+
+	public int getPhonenNumber() {
+		return phoneNumber;
+	}
+
+
+
+
+	public void setPhonenNumber(int phonenNumber) {
+		this.phoneNumber = phonenNumber;
+	}
+
+
+
+
+	public int getStudentID() {
+		return studentID;
+	}
+
+
+
+
+	public void setStudentID(int studentID) {
+		this.studentID = studentID;
+	}
+	
+
+
+	public void users(String studentName, String subjects, int phoneNumber, Date birthDate) {
+		this.studentName = studentName;
+		this.subject = subjects;
+		this.phoneNumber = phoneNumber;
+		this.birthDate = birthDate;
+	}
+
+
+}

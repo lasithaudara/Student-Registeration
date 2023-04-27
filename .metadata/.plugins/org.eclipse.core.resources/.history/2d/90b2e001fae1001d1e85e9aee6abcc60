@@ -1,0 +1,42 @@
+package application;
+
+import java.sql.Date;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import models.User;
+
+public class Controller {
+	
+	@FXML
+	private TableView<User> table_view;
+	
+    @FXML
+    private DatePicker birth_date;
+
+    @FXML
+    private TextField phone_number;
+
+    @FXML
+    private TableColumn<User, Date> BirthDate;
+
+    @FXML
+    private TableColumn<User, String> studentName;
+
+    @FXML
+    private TableColumn<User, Integer> studentPhoneNumber;
+
+    @FXML
+    private TextField student_name;
+
+    @FXML
+    private TableColumn<User, String> subjects;
+
+    @FXML
+    private TextField txt_subject;
+    
+ 
+}
